@@ -7,6 +7,9 @@ Mcrpst::Application.configure do
   # and recreated between test runs. Don't rely on the data there!
   config.cache_classes = true
 
+  #rspec recommends setting the below
+  config.eager_load = false # set to true if using a tool that preloads your test environment
+
   # Configure static asset server for tests with Cache-Control for performance
   config.serve_static_assets = true
   config.static_cache_control = "public, max-age=3600"
