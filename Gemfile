@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-
-# gem 'rails', '3.2.13'
+ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
@@ -27,8 +26,8 @@ group :assets do
 end
 
 group :production do
-  # gem 'pg', '0.15.1' #this is for Heroku
-  # gem 'rails_12factor', '0.0.2' #used by Heroku to serve static assets such as images and stylesheets.
+  gem 'pg', '0.15.1' #this is for Heroku
+  gem 'rails_12factor', '0.0.2' #used by Heroku to serve static assets such as images and stylesheets.
 end
 
 
