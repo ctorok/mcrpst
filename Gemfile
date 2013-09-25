@@ -7,6 +7,7 @@ gem 'rails', '4.0.0'
 
 group :development do
   gem 'sqlite3', '1.3.8'
+  gem 'annotate'
 end
 
 # Gems used only for assets and not required
