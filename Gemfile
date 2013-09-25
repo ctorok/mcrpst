@@ -10,8 +10,6 @@ group :development do
   gem 'sqlite3', '1.3.8'
 end
 
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -28,6 +26,10 @@ group :assets do
 
 end
 
+group :production do
+  # gem 'pg', '0.15.1' #this is for Heroku
+  # gem 'rails_12factor', '0.0.2' #used by Heroku to serve static assets such as images and stylesheets.
+end
 
 
 # To use ActiveModel has_secure_password
