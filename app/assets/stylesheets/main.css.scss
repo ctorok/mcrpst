@@ -1,0 +1,38 @@
+// Google web fonts
+// serif
+@import url(http://fonts.googleapis.com/css?family=Judson);
+// san serif
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+/* universal */
+
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+  font-family: 'Judson', serif;
+}
+
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  font-style: bold;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
